@@ -1,0 +1,16 @@
+{
+    "weights" : "polygon-quad.pt",
+    "device" : "cpu",
+    "source" : "frontend/static/images",
+    "output" : "frontend/static/output",
+    "imgsz" : 640,
+    "conf_thres" : 0.7,
+    "iou_thres" : 0.2,
+    "view_img" : true,
+    "save_img" : true,
+    "save_txt" : true,
+    "classes" : null,
+    "agnostic_nms" : false,
+    "augment" : false,
+    "update" : false
+}

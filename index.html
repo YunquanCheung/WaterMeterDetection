@@ -1,0 +1,28 @@
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="frontend/css/style.css">
+   <script src="frontend/js/jquery.min.js"></script>
+</head>
+
+<body>
+  <br>
+  <h1 class='title'>基于YOLOv5的多水表目标检测模型web效果演示</h1>
+
+  <div id="container">
+    <img src="frontend/demo_images/demo.jpg" id="image" class="center">
+    <div id="text-container">
+      <p id="instruction" class="red-color">
+      <button id="uploader-btn" onClick="clickUploader()">上传文件</button>
+      <p id="warning" class="result-color"></p>
+      <p class="result-color">
+         检测结果(conf_thres=0.7, iou_thres=0.2)：
+      </p>
+      <input name="imgFile" type="file" id="fileUploader" accept="image/*" onChange="handleFiles()">
+    </div>
+    <canvas id="canvas"></canvas>
+  </div>
+  <script src="frontend/js/index.js"></script>
+</body>
+</html>
