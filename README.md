@@ -11,7 +11,7 @@ This repository is based on https://github.com/ultralytics/yolov5, with modifica
 
 ## Web Demo
 
-<img src="./OrientedWaterMeter.gif" alt="OrientedWaterMeter" style="zoom:150%;" />
+<img src="./demo.gif" alt="OrientedWaterMeter" style="zoom:150%;" />
 
 ## Environment
 
