@@ -1,4 +1,4 @@
-# OritentedWaterMeterDetection
+# OritentedWaterMeterReadingRecognition
 
 This repository is based on https://github.com/ultralytics/yolov5, with modification to enable oriented prediction boxes.
 
@@ -6,7 +6,7 @@ This repository is based on https://github.com/ultralytics/yolov5, with modifica
 - Created a custom Water Meter Reading Recognition dataset by collecting and labeling water meter pictures from real scenes.
 - Trained and tested the oriented YOLOv5 model
 - Deployed the oriented YOLOv5 model to build a Flask web application
-- Added water meter recognition function to include the corresponding results
+- Added water meter reading recognition to include the corresponding reading
 
 
 ## New Web Demo
