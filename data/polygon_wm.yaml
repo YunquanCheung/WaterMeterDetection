@@ -1,0 +1,13 @@
+
+# dataset download command/URL (optional)
+download: https://drive.google.com/drive/folders/1KY1kA5eenEQjBv5t7Kz_XvO8hTiNJCut?usp=share_link
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: ../[filename]/train.txt  # 40 images
+val: ../[filename]/val.txt  # 9 images
+
+# number of classes
+nc: 1
+
+# class names
+names: ['NumArea']
